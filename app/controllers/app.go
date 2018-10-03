@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/revel/revel"
-	"github.com/Nicolas-Constanty/ActInSpaceApi/app/models"
+	"github.com/Nicolas-Constanty/Dnai.ML.API/app/models"
 	"fmt"
 	"os"
 	"bufio"
