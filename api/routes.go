@@ -17,7 +17,7 @@ func (t *ApiHandler) HomeHandler(w http.ResponseWriter, request *http.Request) {
 }
 
 // Token handler (/token)
-func (t *ApiHandler) TokenHandler(w http.ResponseWriter, r *http.Request) {
+func (t *ApiHandler) AuthHandler(w http.ResponseWriter, r *http.Request) {
 	creds := &Credentials{}
 	err := json.NewDecoder(r.Body).Decode(creds)
 	if err != nil {
