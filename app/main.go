@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/Nicolas-Constanty/Dnai.ML.Server/api"
+	"github.com/Nicolas-Constanty/Dnai.ML.API/api"
 )
 
 func main() {
